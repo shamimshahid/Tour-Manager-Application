@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hotel_back"
+    tools:context=".HotelDistrictPicker">
+
+    <Button
+        android:background="@drawable/switch_btn_bg"
+        android:textColor="#090909"
+        android:id="@+id/button3"
+        android:layout_width="169dp"
+        android:layout_height="58dp"
+        android:layout_marginBottom="252dp"
+        android:text="Search"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:backgroundTint="#6FB9F6CA"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="325dp"
+        android:layout_height="65dp"
+        android:gravity="center"
+        android:background="@drawable/map_btn_drawable"
+        android:backgroundTint="#6FB9F6CA"
+        android:text="Select your Location"
+        android:textColor="#090909"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/spinner"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.929" />
+
+    <Spinner
+        android:backgroundTint="#6FB9F6CA"
+        android:id="@+id/spinner"
+        android:layout_width="220dp"
+        android:layout_height="57dp"
+        android:layout_marginBottom="44dp"
+        android:background="@drawable/map_btn_drawable"
+        android:gravity="left"
+        app:layout_constraintBottom_toTopOf="@+id/button3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

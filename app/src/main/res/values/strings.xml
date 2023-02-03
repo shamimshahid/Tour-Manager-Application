@@ -1,0 +1,86 @@
+<resources>
+
+    <!--    App Components-->
+    <string name="conti_bt">Continue</string>
+    <string name="news_bt">Maps</string>
+    <string name="fix_bt">Nearest Places</string>
+    <string name="sta_bt">Recommended</string>
+    <string name="tran_bt">Book Transport</string>
+
+
+    <!--    App Info-->
+    <string name="app_name">Lets Go</string>
+    <string name="key">borussia-dortmund</string>
+    <string name="key_id">dt4pinj0vw0t0cvz7za6mhmzy</string>
+    -
+
+    <!--    Admob -->
+    <string name="banner_id">ca-app-pub-8846628460045662/7869350224</string>
+    <string name="admob_app_id">ca-app-pub-8846628460045662~3692277979</string>
+    <string name="inter_id">ca-app-pub-8846628460045662/9874542940</string>
+
+
+    <!--    BdApps Info-->
+    <string name="appid">APP_032662</string>
+    <string name="keyword">dort</string>
+    <string name="ussd">21358</string>
+    <string name="longpass">a7f9dc187016e96457b4d0100d5ec17f</string>
+    <string name="title_activity_maps">Map</string>
+
+    <!-- Map Buttons -->
+    <string name="label_bank">Bank</string>
+    <string name="label_atm">ATM</string>
+    <string name="label_hotel">Hotel</string>
+    <string name="label_restaurant">Restaurant</string>
+
+
+    <string-array name="places">
+        <item>Dhaka</item>
+        <item>Barisal</item>
+        <item>Comilla</item>
+        <item>Khulna</item>
+        <item>Sylhet</item>
+        <item>Rangpur</item>
+        <item>Mymensingh</item>
+        <item>Rajshahi</item>
+        <item>Bagerhat</item>
+        <item>Bandarban</item>
+        <item>Khagrachori</item>
+        <item>Naryanganj</item>
+        <item>Pabna</item>
+        <item>Barguna</item>
+        <item>Jashore</item>
+        <item>Faridpur</item>
+        <item>Noakhali</item>
+        <item>khustia</item>
+        <item>Tangail</item>
+        <item>Jamalpur</item>
+        <item>Joypurhat</item>
+        <item>Brahmanbaria</item>
+        <item>Sirajganj</item>
+        <item>Sunamganj</item>
+        <item>Gopalganj</item>
+        <item>Jhalokathi</item>
+        <item>Coxbazar</item>
+        <item>Chittagong</item>
+        <item>Rangamati</item>
+        <item>Feni</item>
+        <item>Lakshmipur</item>
+
+    </string-array>
+
+    <string-array name="hotels">
+        <item>Bandarban</item>
+        <item>Barisal</item>
+        <item>Chittagong</item>
+        <item>Khagrachori</item>
+        <item>Dhaka</item>
+        <item>Khulna</item>
+        <item>Mymensingh</item>
+        <item>Rajshahi</item>
+    </string-array>
+    <string name="credits">Developed by :\nMd. Shamim Bin Shahid\nHabibur Rahman Rifat\n\nFeel free to contact :
+    shadsham2000@gmail.com</string>
+
+
+</resources>
